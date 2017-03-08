@@ -11,9 +11,7 @@ script:
   - echo "from commit $TRAVIS_COMMIT" >> $STATUSFILE
   - echo "by $USER" >> $STATUSFILE
   - echo "-->" >> $STATUSFILE
-
-
-script: lektor build
+  - lektor build
 
 deploy:
   provider: script
