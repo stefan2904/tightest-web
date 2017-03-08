@@ -1,0 +1,8 @@
+[project]
+name = TIGHTest
+
+[servers.trustmoresystems]
+name = Trust More Systems
+enabled = yes
+default = yes
+target = ftps://ftp.2904.cc
