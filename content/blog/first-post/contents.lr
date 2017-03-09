@@ -1,4 +1,4 @@
-title: Hello Website
+title: Hello World
 ---
 pub_date: 2017-03-08
 ---
@@ -6,4 +6,11 @@ author: Stefan
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
+Welcome to my master's thesis  blog. 
+
+The idea of this blog is to provide an overview of my progress. A second focus is having a place to record thoughts and ideas about the thesis and topics surrounding it. So please be warned, some thoughts might be naive, and others surely will need more developing.  Last but not least, it is a space to practise (scientific-ish) writing in English.
+
+This page uses the [Lektor](https://www.getlektor.com/) static page generator. The sourcecode is [hosted on GitHub](https://github.com/stefan2904/tightest-web). For automated building and deploying [travis](https://travis-ci.org/stefan2904/tightest-web) is used.
+
+Let's see how this goes!
+
