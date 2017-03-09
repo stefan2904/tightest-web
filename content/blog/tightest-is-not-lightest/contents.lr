@@ -2,7 +2,15 @@ title: TIGHTest is not LIGHTest
 ---
 author: Stefan
 ---
-body: LIGHTest is light, while TIGHTest is even smaller, so tiny.
+body:
+
+While LIGHTest is lightweight, TIGHTest is even smaller. TIGHTest is a *tiny* LIGHTest.
+
+LIGHTest is going to be a large (although lightweight) framework. It involves various rather complex, and sometimes abstract, concepts. The idea of TIGHTest is therefore to provide a straightforward *prototypic* implementation of the main LIGHTest components. 
+
+The main focus of TIGHTest is to evaluate the overall architecture proposed for LIGHTest in a more practical way.  Furthermore, the idea is to look at the interfaces and inner workings of all components required to answer an easy (and later more complex) trust decision. 
+
+In addition, there are some more specific questions regarding the use of DNS and DNSSEC to store trust information.
 ---
 twitter_handle: stefan2904
 ---
