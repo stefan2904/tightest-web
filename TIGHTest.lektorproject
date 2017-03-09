@@ -1,8 +1,12 @@
 [project]
 name = TIGHTest
+url = http://trust.more.systems/
 
 [servers.trustmoresystems]
 name = Trust More Systems
 enabled = yes
 default = yes
 target = ftps://ftp.2904.cc
+
+[packages]
+lektor-atom = 0.2
