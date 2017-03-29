@@ -1,0 +1,12 @@
+title: Trust Management, wtf?
+---
+body:
+
+If you want to explain what TIGHTest (or LIGHTest) is, you might want to start by explaining what *Trust Management* is.
+
+According to [Wikipedia](https://en.wikipedia.org/wiki/Trust_management):
+> In information system and information technology, trust management is an abstract system that processes symbolic representations of social trust, usually to aid automated decision-making process.
+
+In our context, a core aspect is the mentioned *automated decision-making process*. For example, whenever you ask yourself questions like "oh, I received an invoice, but how to I make sure this is really from that person/organization?", or "I want to order here, but how do I know this organization is able to perform this task?", or "I received a training certificate, is there a way of checking if it is legit?", trust management comes into play.
+---
+pub_date: 2017-03-29
