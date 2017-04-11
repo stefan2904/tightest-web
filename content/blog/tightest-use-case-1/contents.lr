@@ -1,0 +1,13 @@
+title: TIGHTest Use Case (1)
+---
+_discoverable: yes
+---
+body:
+
+While developing LIGHTest, many discussions and decisions happen on a very abstract level. This makes sense, since LIGHTest, in contrast to TIGHTest, provides a abstract system, enabling to use it with different use cases. 
+
+Since one of the goals of TIGHTest is to develop a prototype of the concepts proposed in LIGHTest, it is useful to remove the generic aspect of its design. It is not clear so far to what extend this is going to happen, but to start, we need a use case.
+
+A use case is useful to have a clear picture in mind, and to be able to test the planned architecture. Thus, a use case should use all aspects we have in mind in one way or another.
+---
+pub_date: 2017-04-11
