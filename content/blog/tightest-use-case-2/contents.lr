@@ -1,0 +1,23 @@
+title: TIGHTest Use Case (2)
+---
+body:
+
+In [part one](/blog/tightest-use-case-1/) of this series we talked about the need for a concrete use case, in contrast to a very abstract view on the project. In this part we are going to propose one.
+
+Imagine you graduate from a university in Austria, let's say TU Graz. You receive a certificate with your title and grades on it, in digital form. Now you want to start a PhD in Denmark, let's say at Technical University of Denmark , DTU. Probably DTU requires you to provide a graduation certificate from a masters level study program. How does DTU know the certificate (PDF?) you provided is from a TU Graz? How do they know if TU Graz is actually a legit university? TIGHTest to the rescue!
+
+To make it a little bit more interesting, DTU could also require you to provide some grades in some courses at your alma mater. Let's look at how [grades work in Austria](https://en.wikipedia.org/wiki/Academic_grading_in_Austria) ... 
+
+> The Austrian grading system offers a range of five different grades (1 to 5), with 1 ("Sehr gut") being the highest and 5 ("Nicht genügend") the lowest grade.
+
+And how [grades work in Denmark](https://en.wikipedia.org/wiki/Academic_grading_in_Denmark):
+
+> In Denmark, the educational system has historically used a number of different systems of grading student performances. The current grading system is the 7-trins-skala (7-step-scale) which replaced the 13-skala in 2006.
+
+Furthermore, there is the [ECTS grading scale](https://en.wikipedia.org/wiki/ECTS_grading_scale) which provides a 7-scale system. And [Academic grading in the United States](https://en.wikipedia.org/wiki/Academic_grading_in_the_United_States). And [more](https://en.wikipedia.org/wiki/Grading_(education%29).
+
+So how can you translate a received grade from TU Graz into a required grade from DTU? Well, you do exactly that. You translate. There are tables which can be used to translate grades from one system into grades from another system. Sometimes it's a 1:1 mapping, sometimes it's not. Sometimes you can do it easily, sometimes you lose information. And with TIGHTest you can automate it all.
+
+(This use case is based on an idea of Sebastian Mödersheim from DTU.)
+---
+pub_date: 2017-04-11
