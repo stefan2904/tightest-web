@@ -1,0 +1,91 @@
+title: Thesis Outline - First Draft
+---
+body:
+
+Every thesis needs a structure, a frame. In this post I present you the first draft of the outline of my thesis.  The outline lists the topics I want to cover in my thesis, and connects them. 
+
+The central theme is based on a multi strep approach. First, a problem statement is given. Then, TIGHTest is introduced, accompanied by an argument, why it solves the given problem. The thesis finishes with a security evaluation of TIGHTest and an outlook into further work. Furthermore, the whole text body is encapsulated into the usual chapters, like *abstract* and *conclusion*.
+
+Here we go ...
+
+### Abstract
+
+* Short problem statement
+* Short TIGHTest intro
+* "In this thesis, we present a system ..."
+
+### Introduction
+
+* Detailed description of the use case
+* (see [TIGHTest Use Case (1)](/blog/tightest-use-case-1/) and [TIGHTest Use Case (2)](/blog/tightest-use-case-2/))
+* Introduction into the structure of the thesis
+
+### Preliminaries
+
+* Trust Management
+* LIGHTest
+* DNS: principle, record types, (pointers?)
+* DNSSec: principle, records, key management, trust root
+* DANE and other DNSSec extensions 
+* Qualified Signatures
+
+### Related Work
+
+* Existing standards (e.g. trust schemes, trust lists, policies, electronic transaction format)
+* LIGHTest (again?)
+* other (if any)
+
+### Architecture
+
+* Explanation of the TIGHTest (and LIGHTest?) architecture
+* Explanation & list of components
+* Explanation of communication protocols
+* Explanation of DNSSec involvement 
+* Probably: formats, DNS record types
+* Arguments why/how the solved the problem described in the *Introduction*
+
+### Implementation
+
+* TIGHTest in detail (more or less)
+* Maybe: Some code
+* API
+* Maybe not: demo, GUI, screenshots
+* Implementation issues
+* Arguments why/how the reflect the proposed *Architecture*
+
+### Evaluation
+
+* Threat modeling methodology
+* Results of thread modeling
+* Implemented & proposed mitigations (if any)
+* Arguments and design decisions (regarding *Architecture*)
+
+### Future Work
+
+* What was not covered in TIGHTest
+* What/how is it covered in LIGHTest
+* Possible extensions or addons
+
+### Conclusion
+
+* We proposed ...
+* We evaluated ...
+
+### Bibliography
+
+```latex
+\printbibliography
+```
+
+### Appendix
+
+Space for non-novel verbatim information, like ...
+
+* grading schemes
+* grade tables / translations
+* detailed LIGHTest introduction
+* screenshots (of demos)
+* published paper (by us)
+
+---
+pub_date: 2017-04-19
