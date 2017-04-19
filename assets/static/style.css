@@ -11,6 +11,10 @@ a:hover {
     color: #33bbdf;
 }
 
+h1 a {
+    text-decoration: none;
+}
+
 header, footer, div.page {
     width: 760px;
     margin: 0 auto;
