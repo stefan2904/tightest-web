@@ -21,3 +21,5 @@ So how can you translate a received grade from TU Graz into a required grade fro
 (This use case is based on an idea of Sebastian Mödersheim from DTU.)
 ---
 pub_date: 2017-04-11
+---
+_discoverable: no
